@@ -6,8 +6,18 @@ function Login() {
             <div id='login-div'>
                 <h1>Welcome</h1>
                 <form>
-                    <input type='text' placeholder='Username' /><br />
-                    <input type='password' placeholder='Password' /><br />
+                    <div className=''>
+                        <label className='custom-field'>
+                            <input type='text' required />
+                            <span class="placeholder">Username</span>
+                        </label>
+                    </div>
+                    <div>
+                    <label className='custom-field'>
+                        <input type='password' required />
+                        <span class="placeholder">Password</span>
+                    </label>
+                    </div>
                     <button>Login</button>
                 </form>
             </div>
