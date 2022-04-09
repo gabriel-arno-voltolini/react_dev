@@ -6,7 +6,7 @@ function Login() {
             <div id='login-div'>
                 <h1>Welcome</h1>
                 <form>
-                    <div className=''>
+                    <div>
                         <label className='custom-field'>
                             <input type='text' required />
                             <span class="placeholder">Username</span>
